@@ -16,15 +16,15 @@ library(lubridate)
 library(knitr)
 
 # Load all datasets
-Killington <- read.csv("/home/skonanc/problem_sets/final_project/Killington Snowfall.csv") %>% 
+Killington <- read.csv("Killington Snowfall.csv") %>% 
   mutate(resort="Killington")
-Stowe <- read.csv("/home/skonanc/problem_sets/final_project/Stowe Snowfall.csv") %>% 
+Stowe <- read.csv("Stowe Snowfall.csv") %>% 
   mutate(resort="Stowe")
-Sugarbush <- read.csv("/home/skonanc/problem_sets/final_project/Sugarbush Snowfall.csv") %>% 
+Sugarbush <- read.csv("Sugarbush Snowfall.csv") %>% 
   mutate(resort="Sugarbush")
 
-January_weather <- read.csv("/home/skonanc/problem_sets/final_project/January_weather.csv")
-elnino <- read.csv("/home/skonanc/problem_sets/final_project/elnino.csv")
+January_weather <- read.csv("January_weather.csv")
+elnino <- read.csv("elnino.csv")
 
 # Mutate and filter
 snowfall <- bind_rows(Killington, Stowe, Sugarbush) %>% 
@@ -113,7 +113,7 @@ kable(temp_and_wind)
 In addition to the factors that typically affect snowfall, meteorologists predict La Nina will enter into the mix this winter. The term La Nina describes the phenomenon when temperatures in the Pacific Ocean near the equator become cooler than normal by more than 0.5 degrees C. The temperature change affects where the most air evaporates, which changes the location of the jetstream. The jetstream influences where storms will occur, and consequently how much snow different parts of the world receive. For the United States, La Nina usually causes the jetstream and storm track to shift north and more snow to fall in the country's northern third. However, La Nina is not pushing the jetstream far enough north to reach Vermont this year, and this season's La Nina is expected to be weak to moderate.
 
 
-![This year's predicted jetstream path](/home/skonanc/problem_sets/final_project/Jetstream.png)
+![This year's predicted jetstream path](Jetstream.png)
 
 *Sourced from http://www.onthesnow.com/news/photo/621227/16-17-ski-season-outlook-update-id410343*
 

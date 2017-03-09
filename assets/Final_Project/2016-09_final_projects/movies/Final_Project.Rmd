@@ -19,9 +19,9 @@ library(lubridate)
 library(broom)
 library(knitr)
 
-Final_movie_data <- read.csv("/home/tinac/Final Project/Possible extra data set/Final_movie_data.txt", sep=";")
+Final_movie_data <- read.csv("Possible extra data set/Final_movie_data.txt", sep=";")
 
-actor_edit <- read.csv("/home/tinac/Final Project/Possible extra data set/actor_edit.txt", sep=";")
+actor_edit <- read.csv("Possible extra data set/actor_edit.txt", sep=";")
 ```
 
 
@@ -129,7 +129,7 @@ ggplot(data=F1)+
 # Copy this blank code block as many times as you need. Note, if you want to
 # code to show in your HTML files, set echo=TRUE above.
 
-Movie_simplified  <- readr::read_csv("/home/tinac/Final Project/Possible extra data set/Movie_simplified.csv")
+Movie_simplified  <- readr::read_csv("Possible extra data set/Movie_simplified.csv")
 
 AVG_Movie_S <- Movie_simplified %>% group_by(Year, Gender) %>% summarise(mean=mean(AdjBoxOffice))
 

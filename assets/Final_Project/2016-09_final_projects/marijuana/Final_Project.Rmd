@@ -23,13 +23,13 @@ library(gpclib)
 # Import datasets
 
 # List of marijuana retail facilities in Colorado, contains zip code.
-mari_retail_CO <- read.csv("/home/istrohbehn/Stats final projet/mari_retail_CO.csv")
+mari_retail_CO <- read.csv("mari_retail_CO.csv")
 
 # List of marijuana cultivation facilities in Colorado, contains zip code.
-mari_cultivation_CO <- read.csv("/home/istrohbehn/Stats final projet/mari_cultivation_CO.csv")
+mari_cultivation_CO <- read.csv("mari_cultivation_CO.csv")
 
 # Population and economic characteristics for zip codes in Colorado.
-co_zip_data <- read.csv("/home/istrohbehn/Stats final projet/co_zip_data.csv", check.names = FALSE)
+co_zip_data <- read.csv("co_zip_data.csv", check.names = FALSE)
 load("zipcode.rda")
 ```
 

@@ -17,7 +17,7 @@ library(tidyr)
 library(wordcloud)
 library(scales)
 library(reshape2)
-load("/home/rconover/Final Project/campusdata/campusdataagain.RData")
+load("campusdata/campusdataagain.RData")
 data<-data
 ```
 

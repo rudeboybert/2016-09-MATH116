@@ -30,7 +30,7 @@ Markdown Quick Reference
 # Copy this blank code block as many times as you need. Note, if you want to
 # code to show in your HTML files, set echo=TRUE above.
 library(tidyr)
-women.stem <- read.csv("/home/aglassie/Final Project/women-stem.csv")
+women.stem <- read.csv("women-stem.csv")
 
 bio_life <- filter(women.stem, Major_category == "Biology & Life Science")
 biolife2 <- filter(bio_life, Major != "BOTANY", Major != "GENETICS",  Major !="PHARMACOLOGY", Major != "ZOOLOGY", Major !="COGNITIVE SCIENCE AND BIOPSYCHOLOGY") 
@@ -113,7 +113,7 @@ more, but including in the main article would unnecessarily bloat things.
 # Copy this blank code block as many times as you need. Note, if you want to
 # code to show in your HTML files, set echo=TRUE above.
 library(tidyr)
-women.stem <- read.csv("/home/aglassie/Final Project/women-stem.csv")
+women.stem <- read.csv("women-stem.csv")
 
 bio_life <- filter(women.stem, Major_category == "Biology & Life Science")
 biolife2 <- filter(bio_life, Major != "BOTANY", Major != "GENETICS",  Major !="PHARMACOLOGY", Major != "ZOOLOGY", Major !="COGNITIVE SCIENCE AND BIOPSYCHOLOGY") 

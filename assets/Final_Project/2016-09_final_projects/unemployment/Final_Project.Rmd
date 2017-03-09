@@ -28,7 +28,7 @@ In light of this it seems only reasonable to take a look at what the data on une
 
 
 ```{r, message=FALSE, warning=FALSE, fig.width=8, fig.height=4.5, echo=FALSE}
-census <- read.csv("/home/tahenderson/Final Project Math 116 Will Perry and Theodore Henderson/2000-2015 movement.csv")
+census <- read.csv("2000-2015 movement.csv")
 
 census %>% 
   ggplot(aes(x=year,y=unemployment,group=1))+geom_line()+facet_wrap(~region)

@@ -28,8 +28,8 @@ library(broom)
 
 ```{r, message=FALSE, warning=FALSE, fig.width=8, fig.height=4.5, echo=FALSE}
 # Loading Data Set 
-grad.students <- read.csv("/home/slillis/Final_Project/grad-students.csv")
-grad.students.a <- read.csv("/home/slillis/Final_Project/grad-students-a.csv")
+grad.students <- read.csv("grad-students.csv")
+grad.students.a <- read.csv("grad-students-a.csv")
 ```
 
 In order to better examine this theory, the first thing we did was to form a table. This table consisted of four columns where the first column consisted of the field of college majors, the second represented the number of undergraduates, the third showed the number of undergraduates that had received full time employment, and the last column displayed  the proportion of undergraduates who had received full time employment. The table shows that the Major fields with the highest proportion of undergraduates attaining full time employment after were Law and Policy at  69% and Computers and Mathematics with 67%. There are a number of different reasons for why these fields are so attractive to employers, yet the biggest reason would have to be the nature of these two industries. With the growing world of technology and the fact  that law plays a role within almost every facet of our lives, spurs the demand for a number of individuals who have skills for these professions. On the other side of the spectrum, the majors who fall under the field of education have the lowest proportion of students finding full time employment. One possible explanation for this could be that right now the market is oversaturated with educators and teachers; as a result the demand for more educators just isn't there. 

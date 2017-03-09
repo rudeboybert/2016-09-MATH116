@@ -15,7 +15,7 @@ library(dplyr)
 library(mosaic)
 library(knitr)
 
-mh2012_puf <- read.csv("~/JJ_FInal_Project/mh2012_puf.csv")
+mh2012_puf <- read.csv("mh2012_puf.csv")
 
 South <- filter(mh2012_puf, LST == "TX" |LST == "OK" | LST == "AR"| LST == "LA"| LST == "MS"| LST == "TN"| LST == "AL"| LST == "KY"| LST == "WV"| LST == "FL"| LST == "GA"| LST == "SC"| LST == "NC"| LST == "VA"| LST == "DC"| LST =="MD"| LST =="DE")
 
