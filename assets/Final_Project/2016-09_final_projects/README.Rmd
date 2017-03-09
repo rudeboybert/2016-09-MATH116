@@ -17,7 +17,7 @@ titles <- c(
   "Where Should MiddKids Ski This J-Term?",
   "Drug Use Within Age Groups",
   "Quantifying Middlebury's Collective Consciousness",
-  "Who Sits at the Top of NESCAC Stack?",
+  "Who Sits at the Top of NESCAC Stack? (interactive; takes 30 seconds to load)",
   "Sexism on the Silver Screen: Exploring Film's Gender Divide",
   "Marijuana Retail and Production Dispersal in Colorado",
   "Unemployment and Migration in the United States",
