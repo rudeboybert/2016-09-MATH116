@@ -25,16 +25,18 @@ titles <- c(
   "Looking for Mental Health Care? West is Best",
   "The Systematic Gender Gap in STEM Fields: Why Should We Care?"
   )
-folder <- c("skiing", "drug_use", "middlebury_campus", "NESCAC",
-            "movies", "marijuana", "unemployment", "college_majors",
-            "mental_health", "gender_STEM")
+folder <- c("`skiing`", "`drug_use`", "`middlebury_campus`", "`NESCAC`",
+            "`movies`", "`marijuana`", "`unemployment`", "`college_majors`",
+            "`mental_health`", "`gender_STEM`")
 
 final_projects <- 
   read_csv("groups.csv") %>%
   mutate(
-    Title=titles,
-    Folder=folder
-    )
+    Title = titles,
+    Folder = folder,
+    Title = paste("<a target=\"_blank\" class=\"page-link\" href=\"",  `RPubs Link (Public)`, "\">", Title, "</a>", sep="")
+    ) %>% 
+  select(-c(`RPubs Link (Public)`))
 
 kable(final_projects)
 ```
