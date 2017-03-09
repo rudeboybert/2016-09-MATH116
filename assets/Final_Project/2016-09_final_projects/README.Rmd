@@ -39,4 +39,5 @@ final_projects <-
   select(-c(`RPubs Link (Public)`))
 
 kable(final_projects)
+# write_csv(final_projects, "2016-09_final_projects.csv")
 ```
