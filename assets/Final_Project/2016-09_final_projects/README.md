@@ -4,30 +4,15 @@
 GitHub Documents
 ----------------
 
-This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
-
-Including Code
---------------
-
-You can include R code in the document as follows:
-
-``` r
-summary(cars)
-```
-
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-Including Plots
----------------
-
-You can also embed plots, for example:
-
-![](README_files/figure-markdown_github/pressure-1.png)
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+| Group Members                                           | RPubs Link (Public)                                      | Title                                                         | Folder             |
+|:--------------------------------------------------------|:---------------------------------------------------------|:--------------------------------------------------------------|:-------------------|
+| Sophia Konanc and Maddie Maloney                        | <http://rpubs.com/skonanc/Final_Project>                 | Where Should MiddKids Ski This J-Term?                        | skiing             |
+| Luisangel Osorio and Wengel Kifle                       | <http://rpubs.com/Wengel/Luisangel-FinalProject-DrugUse> | Drug Use Within Age Groups                                    | drug\_use          |
+| Sarah Koenigsberg, Caroline Cating, and Rebecca Conover | <http://rpubs.com/rsfconover/235990>                     | Quantifying Middlebury's Collective Consciousness             | middlebury\_campus |
+| Zach Levitt, David Valentin, and Joe Moscatelli         | <http://zlevitt.shinyapps.io/Final_Project_Shiny>        | Who Sits at the Top of NESCAC Stack?                          | NESCAC             |
+| Sierra Moen, Tina Chen, and Jared Whitman               | <http://rpubs.com/Jwhitman/Final_Project>                | Sexism on the Silver Screen: Exploring Film's Gender Divide   | movies             |
+| Sam O'Keefe and Ian Strohbehn                           | <http://rpubs.com/sokeefe/Final_Project>                 | Marijuana Retail and Production Dispersal in Colorado         | marijuana          |
+| Teddy Henderson and Will Perry                          | <http://rpubs.com/tahenderson/228708>                    | Unemployment and Migration in the United States               | unemployment       |
+| Stefan Asamoah and Steven Lillis                        | <http://rpubs.com/slillis/228825>                        | Will Your Major Field Change Your Prospects for Employment?   | college\_majors    |
+| Jack Kagan and Joccelyn Alvarado                        | <http://rpubs.com/JoccelynAlvarado/Final_Project>        | Looking for Mental Health Care? West is Best                  | mental\_health     |
+| Annie Glassie and Julia Keith                           | <http://rpubs.com/jkeith/236217>                         | The Systematic Gender Gap in STEM Fields: Why Should We Care? | gender\_STEM       |
